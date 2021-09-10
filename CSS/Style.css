@@ -1,0 +1,271 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: serif;
+}
+.header{
+    min-height:100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Photos/back.png);
+    
+    background-repeat: no-repeat;
+    background-color:gray;
+    background-position: center;
+     
+    background-size: cover;
+    position: relative;
+    
+   
+}
+nav{
+    display: flex;
+    padding: 2%  5%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks ul li{
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    
+}
+
+.navlinks ul li a{
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+     
+}
+.navlinks ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.text{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+        
+}
+.navlinks ul li:hover::after{
+    width: 100%;
+}
+.text h1{
+    font-size: 50px;
+}
+.text p{
+    margin: 10px 0 40px;
+    font-size: 15px;
+    
+}
+.botton{
+    display: inline-block;
+    color: darkcyan;
+    border: 1px solid black;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    
+}
+.botton:hover{
+    border:1px light red;
+    background: red;
+    transition: 1s;
+}
+/*-----course-----*/
+.Course{
+    width: 80%;
+    text-align: center;
+    padding: 100px;
+    margin: auto;
+}
+h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.p{
+    font-size: 15px;
+    color: skyblue;
+    padding: 10px;
+    font-weight: 300;
+    line-height: 22px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.Coursecol{
+    flex-basis: 30%;
+    background: #fff3f3;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: 0.10s;
+} 
+h3{
+    text-align: center;
+    font-weight: 600;
+    
+}
+.Coursecol:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0, 0,0.2);
+}
+
+
+
+/*-----------gallery------------*/
+
+.gallery{
+    width: 80%;
+    text-align: center;
+    padding: 100px;
+    margin: auto;
+    
+    
+}
+h4{
+    font-size: 50px;
+}
+.gallerycol{
+    flex-basis: auto;
+    border-radius: 10px;
+    display: inline;
+    position: relative;
+    overflow: hidden;
+    
+}
+/*---------contact----------*/
+.call{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Photos/contactus.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.call h1{
+    color: ghostwhite;
+    
+}
+.footer{
+     width: 100%;
+    text-align: center;
+    
+}
+.footer h3{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+
+
+
+/*-------------about us page---------*/
+
+
+
+
+
+
+
+.subheader{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Photos/about.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: whitesmoke;
+}
+.aboutus{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    
+}
+.aboutcol{
+    flex-basis: 48%;
+    padding: 30px 2px;
+    
+}
+.aboutcol img{
+    width: 100%;
+}
+
+.aboutcol p{
+    padding: 15px 0 25px;
+}
+
+
+/*---------------contact us page --------------*/
+
+
+
+
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe{
+    width: 100%;
+}
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+.contactcol{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+    
+}
+.contactcol div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contactcol input, .contactcol textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
